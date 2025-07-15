@@ -36,7 +36,7 @@ const Footer = () => {
             </li>
             <li>
               <a
-                href="https://github.com/your-repo"
+                href="https://github.com/Rahul-chhajed/voting-dapp"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="hover:text-purple-400 transition"
@@ -50,7 +50,7 @@ const Footer = () => {
               </a>
             </li>
             <li>
-              <a href="/privacy" className="hover:text-purple-400 transition">
+              <a href="https://github.com/Rahul-chhajed/voting-dapp/blob/main/README.md" className="hover:text-purple-400 transition">
                 Privacy Policy
               </a>
             </li>
