@@ -9,7 +9,7 @@ import Navbar from "./components/Navbar";
 import { Toaster } from "sonner";
 import Footer from "./components/Footer";
 import Doc from "./pages/Doc"; // Ensure this path is correct
-
+import Error from "./components/Error"; // Ensure this path is correct
 export default function App() {
   return (
     <Router>
@@ -35,7 +35,7 @@ export default function App() {
             <Route path="/election/:id" element={<ElectionDetails />} />
             <Route path="/vote/:id/:candidateId" element={<Vote />} />
             <Route path="/about" element={<Doc/>} />
-            <Route path="*" element={<div className="p-6 text-center">Page Not Found</div>} />
+            <Route path="*" element={<Error/>} />
           </Routes>
         </main>
         <Footer />
